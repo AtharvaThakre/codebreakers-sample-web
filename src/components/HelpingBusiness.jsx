@@ -1,14 +1,5 @@
-import React from 'react';
-
-interface Stat {
-  id: number;
-  icon: string;
-  number: string;
-  label: string;
-}
-
-const HelpingBusiness: React.FC = () => {
-  const stats: Stat[] = [
+const HelpingBusiness = () => {
+  const stats = [
     { id: 1, icon: '/assets/images/icons/user_icon.png', number: '2,245,341', label: 'Members' },
     { id: 2, icon: '/assets/images/icons/clubs_icon.png', number: '46,328', label: 'Clubs' },
     { id: 3, icon: '/assets/images/icons/event_icon.svg', number: '828,867', label: 'Event Bookings' },

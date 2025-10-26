@@ -1,13 +1,5 @@
-import React from 'react';
-
-interface BlogCard {
-  id: number;
-  image: string;
-  title: string;
-}
-
-const Marketing: React.FC = () => {
-  const cards: BlogCard[] = [
+const Marketing = () => {
+  const cards = [
     {
       id: 1,
       image: '/assets/images/creating_woman.png',

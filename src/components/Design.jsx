@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Design: React.FC = () => {
+const Design = () => {
   return (
     <section className="design">
       <div className="container d-flex">

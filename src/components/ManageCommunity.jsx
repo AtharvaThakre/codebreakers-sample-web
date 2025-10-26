@@ -1,14 +1,5 @@
-import React from 'react';
-
-interface Card {
-  id: number;
-  image: string;
-  title: string;
-  description: string;
-}
-
-const ManageCommunity: React.FC = () => {
-  const cards: Card[] = [
+const ManageCommunity = () => {
+  const cards = [
     {
       id: 1,
       image: '/assets/images/manage_community1.png',

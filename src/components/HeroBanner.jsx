@@ -1,6 +1,4 @@
-import React from 'react';
-
-const HeroBanner: React.FC = () => {
+const HeroBanner = () => {
   return (
     <section className="hero-banner bg-bluegraylight">
       <div className="container">

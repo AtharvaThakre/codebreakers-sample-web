@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Testimonial: React.FC = () => {
+const Testimonial = () => {
   const clients = [
     { id: 1, src: '/assets/images/our_client1.png', alt: 'our clients 1' },
     { id: 2, src: '/assets/images/our_client2.png', alt: 'our clients 2' },

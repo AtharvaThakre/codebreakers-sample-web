@@ -1,4 +1,3 @@
- import React from 'react';
 import Header from './components/Header';
 import HeroBanner from './components/HeroBanner';
 import OurClients from './components/OurClients';
@@ -10,7 +9,7 @@ import Testimonial from './components/Testimonial';
 import Marketing from './components/Marketing';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <>
       <Header />
